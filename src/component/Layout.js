@@ -12,6 +12,13 @@ function Layout() {
             <li>
                 <Link to = "/rentals">Rental</Link>
             </li>
+            <li>
+                <Link to = "/description">Description</Link>
+            </li>
+            <li>
+                <Link to ="/form">Form</Link>
+            </li>
+
         </ul>
     </nav>
     <Outlet/>

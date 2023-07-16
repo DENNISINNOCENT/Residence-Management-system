@@ -7,7 +7,7 @@ function Home() {
         <div className="flex md:justify-between font-serif text-lg font-semibold">
           <h1 className="pl-10 text-3xl">yourResidence</h1>
           <ul className="inline-flex space-x-10 ">
-            <li>Rentals</li>
+            <li><a href="http://localhost:3000/rentals">Rentals</a></li>
             <li>Services</li>
             <li>About Us</li>
             <li className="bg-blue-800 p-1 rounded">Contact Us</li>
@@ -124,9 +124,9 @@ function Home() {
       <div className="p-20 flex ">
         <div className="">
           <img
-            src="https://images.unsplash.com/photo-1524549207884-e7d1130ae2f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGFwYXJ0bWVudHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://media.istockphoto.com/id/1393537665/photo/modern-townhouse-design.webp?b=1&s=170667a&w=0&k=20&c=vlUsVGOI_lm_cZUwwHZWeBL5RRfxYHExELD5vOGTwV8="
             alt="h4"
-            className="rounded-t-full h-3/4 "
+            className="rounded-t-full h-full "
           />
         </div>
 
