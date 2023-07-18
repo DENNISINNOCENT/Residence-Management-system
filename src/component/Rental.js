@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import Description from './Description'
+
 
 function Rental() {
   return (
