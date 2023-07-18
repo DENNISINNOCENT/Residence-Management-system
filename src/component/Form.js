@@ -1,20 +1,21 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function Form() {
   return (
-    <div className="bg-lime-100 max-h-full">
+    <div className="bg-lime-100 md:h-screen">
       <div>
         <Header />
       </div>
       <div>
-        <form className="flex flex-col items-center justify-center  ">
-          <div className=" bg-lime-800 rounded-2xl font-serif ">
+        <form className="flex flex-col md:items-center md:justify-center  ">
+          <div className=" bg-lime-800 md:rounded-2xl font-serif ">
             <div className=" ">
-              <h1 className=" flex justify-center text-3xl text-blue-800 font-extrabold">
+              <h1 className=" flex md:justify-center md:text-3xl text-blue-800 font-extrabold">
                 yourResidence Application Form
               </h1>
-              <div className="font-bold text-xl">
+              <div className="font-bold md:text-xl">
               <p>Kindly ensure you give your correct details,</p>
               <p>Incorrect Details is a criminal Offense</p>
               <p>that is punishable by Law</p>
@@ -23,12 +24,12 @@ function Form() {
               
             </div>
 
-            <div className="grid grid-cols-2  m-4 text-2xl font-serif gap-6 rounded">
+            <div className="grid md:grid-cols-2  md:m-4 text-2xl font-serif gap-6 md:rounded">
                 <div>
                 <label>First Name</label>
               <input
                 type="text"
-                className="w-full"
+                className="md:w-full"
                 placeholder="Dennis"
               />
                 </div>
@@ -36,7 +37,7 @@ function Form() {
                 <label>SurName</label>
               <input
                 type="text"
-                className="w-full"
+                className="md:w-full"
                 placeholder="Mutinda"
               />
                 </div>
@@ -44,7 +45,7 @@ function Form() {
                 <label>ID No/Passport No</label>
               <input
                 type="text"
-                className="w-full"
+                className="md:w-full"
                 placeholder="34789065"
               />
                 </div>
@@ -53,7 +54,7 @@ function Form() {
                 <label>Birth Cert No</label>
               <input
                 type="text"
-                className="w-full"
+                className="md:w-full"
                 placeholder="134789201"
               />
                 </div>
@@ -61,7 +62,7 @@ function Form() {
                 <label>Email Address </label>
               <input
                 type="text"
-                className="w-full"
+                className="md:w-full"
                 placeholder="mutindahdennis@gmail.com"
               />
                 </div>
@@ -70,16 +71,19 @@ function Form() {
                 <label>Postal Address</label>
               <input
                 type="text"
-                className="w-full"
+                className="md:w-full"
                 placeholder="243-00242"
               />
                 </div>
             </div>
-            <div className="flex justify-center p-4" >
-              <button type="submit" className=" bg-blue-900 w-3/12 text-3xl rounded-full ">Submit</button>
+            <div className="flex md:justify-center md:p-4" >
+              <button type="submit" className=" bg-blue-900 md:w-3/12 md:text-3xl md:rounded-full ">Submit</button>
             </div>
           </div>
         </form>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );
